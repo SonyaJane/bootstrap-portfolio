@@ -19,6 +19,11 @@ h1, h2 {
     color: #184f63; /* dark-blue */
 }
 
+.sharp-corners, 
+.sharp-corners * { /* ensures that all descendant elements of the card follow the new sharp-corner rule */
+    border-radius: 0;
+}
+
 /* Header section */
 
 /* Hero section */
